@@ -1,0 +1,40 @@
+.header-menu{  /*Container Menu*/
+    background-color: white;
+    display: flex;
+    padding: 13px 25px 13px 25px;
+    margin: 20px 50px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 100px;
+    z-index: 5;
+}
+.header-menu img{
+    width: 100px;
+}
+.header-menu .navbar-menu, a{
+    display: flex;
+    color: black;
+    gap: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.apresetation{
+    color: white;
+    margin: 250px 0 150px 80px;
+    display: flex;
+}
+.apresetation h1{
+    font-size: 70px;
+}
+.apresetation p{
+    margin-top: -20px;
+}
+.line{
+    border-left: 7px solid white;
+    margin-right: 20px;
+}
+.about-me{
+    background-color: #09090b;
+    padding: 98px 48px 98px 48px;
+    color: white;
+}
